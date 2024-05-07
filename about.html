@@ -1,0 +1,24 @@
+---
+layout: default
+title: About page
+fruit:
+ - title: Apple
+   description: The best fruit
+ - title: Banana
+   description: The second best fruit
+ - title: Pear
+   description: The worst fruit
+ - title: Pineapple
+   description: What even is this?       
+---
+
+<section>
+
+    {% for item in page.fruit %}
+    <div class="card">
+        <h2>{{item.title}}</h2>
+        <p>{{item.description}}</p>
+    </div>
+    {% endfor %}
+ 
+</section>
