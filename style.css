@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+
+.padded { padding: 5%; }
+.padded-1 { padding: 1rem; }
+
 header,
 footer {
     background-color: lightblue;
@@ -21,3 +25,27 @@ section {
     max-width: 20%;
     display: inline-block;
 }
+
+.intro {
+    text-transform: uppercase;
+    background: rgb(200,200,200);
+}
+
+
+.tag {
+    border: 1px solid;
+    padding: 0.5rem;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 3px;
+}
+
+/* Background Image Styles */
+
+.bg-image{
+    background-size: cover;
+    background-position: center;
+}
+
+.square { padding-bottom: 100%; }
+.landscape { padding-bottom: 63%; }
